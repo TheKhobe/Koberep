@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+  <style type="text/css">
+  @media (max-width: 1440px) {
+    
+  body {
+  background: hsl(233, 47%, 7%);
+}
+.container {
+  border: 1px solid transparent;
+  margin-left: 30%;
+  margin-top: 10%;
+  height: 355px;
+  width: 30%;
+  border-radius: 3.5px;
+  background-color: hsl(244, 38%, 16%);
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 20px;
+}
+.cover {
+  display: flex;
+  align-items: center;
+}
+div .img {
+  width: 35%;
+  height: 355px;
+  background-image: linear-gradient(
+      rgba(47, 15, 67, 0.8),
+      rgba(47, 15, 67, 0.7)
+    ),
+    url(/images/image-header-desktop.jpg);
+  border-radius: 2.5px;
+  margin-top: 10%;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: Inter;
+  margin-left: 20px;
+  letter-spacing: normal;
+  text-align: left;
+}
+span {
+  color: hsl(277, 64%, 61%);
+}
+.Stats li {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  margin-left: 30px;
+  padding: 13px;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+.Stats li h3 {
+  padding-left: 30px;
+  margin-left: 10px;
+}
+.Stats p {
+  text-align: left;
+  margin-top: -55px;
+  font-family: lexend deca;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+  }
+  </style>
+</head>
+<body>
+  <br>
+  <br>
+  <div class="cover">
+<div class="container">
+ <h1> Get <span>insights</span> that help<br> your business grow.</h1>
+
+ <p> Discover the benefits of data analytics and make<br>
+     better decisions regarding revenue, customer<br> 
+     experience, and overall efficiency.</p>
+  <br>
+  <br>
+<div class="Stats">
+   <li>
+     <h3>10k+</h3>
+     <h3>314</h3>
+     <h3>12M+</h3>
+     </li>
+     <li>
+       <p>COMPANIES</p>
+        <p>TEMPLATES</p>
+        <p>QUERIES</p>
+     </li>
+      </div>
+</div>
+<div class="img">
+</div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">TheKhobe</a>.
+  </div>
+</body>
+</html>
